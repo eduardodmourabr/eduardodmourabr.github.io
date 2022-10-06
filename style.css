@@ -328,12 +328,16 @@ header {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
   width: 18rem;
   height: 25rem;
   position: relative;
+  margin:20px 0;
 }
 
 .card-img-wrapper {

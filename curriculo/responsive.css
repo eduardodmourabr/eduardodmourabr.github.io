@@ -2,6 +2,14 @@
 /* Responsividade */
 
 @media (max-width:320px){
+
+    td{
+        width: 100%;
+    }
+
+    #conteudo-right{
+        margin: 30px;
+    }
     #principal{
         display: flex;
         flex-direction: column;
@@ -54,6 +62,19 @@
 
 /* tela com valor máximo de largura, em até 480px */
 @media (max-width:1240px){
+    
+
+    td{
+        width: 100%;
+    }
+
+    #conteudo-right{
+        margin: 30px;
+    }
+
+    #conteudo-left{
+        margin: 30px;
+    }
 
     #principal{
         display: flex;
@@ -86,7 +107,8 @@
     } 
 
     #conhecimentos{
-        margin: 50px 0;
+        margin: 30px ;
+        
     }
 
     footer, #p-footer{
@@ -101,6 +123,13 @@
 
 /* parte azul - contato - ajuste para não ultrapassar o limite */
 @media (min-width:1200px) and (max-width:1250px){
+    td{
+        width: 100%;
+    }
+
+    #conteudo-right{
+        margin: 30px;
+    }
     #principal{
         display: flex;
         flex-direction: row;
@@ -116,7 +145,7 @@
         height: 100vh;
     }
     #conteudo-right{
-        margin:  0% 8%;
+        margin: 30px;
     }
     footer, #p-footer{
         text-align: center;
