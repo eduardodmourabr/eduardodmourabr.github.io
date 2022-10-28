@@ -2,6 +2,10 @@
     .banner {
         width: 275px;
     }
+    .card {
+      
+      margin:20px 0px;
+    }
     .projetos {
         display:flex;
         flex-direction:column;
